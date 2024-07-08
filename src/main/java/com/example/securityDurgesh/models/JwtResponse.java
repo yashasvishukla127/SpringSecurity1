@@ -1,6 +1,5 @@
 package com.example.securityDurgesh.models;
 
-
 import lombok.*;
 
 @Getter
@@ -10,9 +9,8 @@ import lombok.*;
 @Builder
 @ToString
 
-public class JwtRequest {
-    private String email;
-    private String password;
+public class JwtResponse {
 
-
+    private String jwtToken;
+    private String username;
 }
